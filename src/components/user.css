@@ -1,0 +1,111 @@
+* {
+    margin: 2px;
+    padding: 1px
+}
+
+body {
+    background-color: #bba74ed8
+}
+
+.card {
+    width: 350px;
+    background-color: #9ec9c2;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 320px;
+    height: 360px;
+    
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 3px 3px #c8719a;
+}
+
+.image img {
+    transition: all 0.5s
+}
+
+.card:hover .image img {
+    transform: scale(1.5)
+}
+
+.btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btninfos {
+    height: 40px;
+    width: 190px;
+    border: none;
+    background-color: rgba(12, 111, 157, 0.543);
+    color: #c94e11;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    
+    
+}
+
+.text span {
+    font-size: 13px;
+    color: #171516;
+    font-weight: 700
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}
+
+h1 {
+    color: #19111c;
+    font-family: "Lobster", cursive;
+    font-size: 130px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+      0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+  }
